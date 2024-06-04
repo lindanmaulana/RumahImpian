@@ -9,12 +9,17 @@ export default {
     },
 
     extend: {
+      padding: {
+        'section': '100px'
+      },
+
       fontFamily: {
         "poppins": ['Poppins', 'sans-serif']
       },
       colors: {
-        'premier': '#00985B',
+        'premier': '#048853',
         'secondary': '#FFFFFF',
+        'premier-2' : '#00985B',
         'hijau-tua' : '#00492C',
         'hitam' : '#000000'
       }
