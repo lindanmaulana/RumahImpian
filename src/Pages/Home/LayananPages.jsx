@@ -14,7 +14,7 @@ const LayananPages = () => {
         <div className="flex items-center justify-center w-full gap-x-5">
           <div className="bg-gradient-to-br from-[#00985B] to-black/80 flex max-w-sm flex-col rounded-md justify-center items-center px-10 py-10">
             <img
-              src="/public/img/icons/layanan-house.png"
+              src="/img/icons/layanan-house.png"
               alt="house"
               className="p-1 mb-5 bg-white rounded-full w-14 h-14"
             />
@@ -29,7 +29,7 @@ const LayananPages = () => {
 
           <div className="flex flex-col items-center justify-center max-w-sm px-10 py-10 rounded-md bg-secondary">
             <img
-              src="/public/img/icons/layanan-finance.png"
+              src="/img/icons/layanan-finance.png"
               alt="house"
               className="p-1 mb-5 rounded-full bg-premier w-14 h-14"
             />
@@ -44,7 +44,7 @@ const LayananPages = () => {
 
           <div className="flex flex-col items-center justify-center max-w-sm px-10 py-10 rounded-md bg-secondary">
             <img
-              src="/public/img/icons/layanan-town.png"
+              src="/img/icons/layanan-town.png"
               alt="house"
               className="p-1 mb-5 rounded-full bg-premier w-14 h-14"
             />

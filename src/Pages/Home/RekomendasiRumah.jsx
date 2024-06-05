@@ -11,7 +11,7 @@ const RekomendasiRumah = () => {
           <div className="p-2 overflow-hidden rounded pb-14 max-w-rekomendasi-card max-h-rekomendasi-card bg-secondary">
             <div className="w-full mb-2 h-72">
               <img
-                src="/public/img/icons/rumah1.png"
+                src="/img/icons/rumah1.png"
                 alt="rumah 1"
                 className="object-cover w-full h-full"
               />
@@ -25,7 +25,7 @@ const RekomendasiRumah = () => {
               <div className="flex items-center justify-between py-4">
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-tempat-tidur.svg"
+                    src="/img/icons/rekomendasi-tempat-tidur.svg"
                     alt="Tempat Tidur"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -37,7 +37,7 @@ const RekomendasiRumah = () => {
 
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-bathup.svg"
+                    src="/img/icons/rekomendasi-bathup.svg"
                     alt="Bathup"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -49,7 +49,7 @@ const RekomendasiRumah = () => {
 
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-globe.svg"
+                    src="/img/icons/rekomendasi-globe.svg"
                     alt="Globe"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -65,7 +65,7 @@ const RekomendasiRumah = () => {
           <div className="p-2 pb-10 overflow-hidden rounded max-w-rekomendasi-card bg-gradient-to-br from-premier from-60% to-black/80 max-h-rekomendasi-card">
             <div className="w-full mb-2 h-72 ">
               <img
-                src="/public/img/icons/rumah2.png"
+                src="/img/icons/rumah2.png"
                 alt="rumah 1"
                 className="object-cover w-full h-full"
               />
@@ -79,7 +79,7 @@ const RekomendasiRumah = () => {
               <div className="flex items-center justify-between py-4">
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-tempat-tidur.svg"
+                    src="/img/icons/rekomendasi-tempat-tidur.svg"
                     alt="Tempat Tidur"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -89,7 +89,7 @@ const RekomendasiRumah = () => {
 
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-bathup.svg"
+                    src="/img/icons/rekomendasi-bathup.svg"
                     alt="Bathup"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -101,7 +101,7 @@ const RekomendasiRumah = () => {
 
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-globe.svg"
+                    src="/img/icons/rekomendasi-globe.svg"
                     alt="Globe"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -117,7 +117,7 @@ const RekomendasiRumah = () => {
           <div className="p-2 overflow-hidden rounded pb-14 max-w-rekomendasi-card max-h-rekomendasi-card bg-secondary">
             <div className="w-full mb-2 h-72 ">
               <img
-                src="/public/img/icons/rumah3.png"
+                src="/img/icons/rumah3.png"
                 alt="rumah 1"
                 className="object-cover w-full h-full"
               />
@@ -131,7 +131,7 @@ const RekomendasiRumah = () => {
               <div className="flex items-center justify-between py-4">
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-tempat-tidur.svg"
+                    src="/img/icons/rekomendasi-tempat-tidur.svg"
                     alt="Tempat Tidur"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -143,7 +143,7 @@ const RekomendasiRumah = () => {
 
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-bathup.svg"
+                    src="/img/icons/rekomendasi-bathup.svg"
                     alt="Bathup"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -155,7 +155,7 @@ const RekomendasiRumah = () => {
 
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-globe.svg"
+                    src="/img/icons/rekomendasi-globe.svg"
                     alt="Globe"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -171,7 +171,7 @@ const RekomendasiRumah = () => {
           <div className="p-2 overflow-hidden rounded pb-14 max-w-rekomendasi-card max-h-rekomendasi-card bg-secondary">
             <div className="w-full mb-2 h-72 ">
               <img
-                src="/public/img/icons/rumah4.png"
+                src="/img/icons/rumah4.png"
                 alt="rumah 1"
                 className="object-cover w-full h-full"
               />
@@ -185,7 +185,7 @@ const RekomendasiRumah = () => {
               <div className="flex items-center justify-between py-4">
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-tempat-tidur.svg"
+                    src="/img/icons/rekomendasi-tempat-tidur.svg"
                     alt="Tempat Tidur"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -197,7 +197,7 @@ const RekomendasiRumah = () => {
 
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-bathup.svg"
+                    src="/img/icons/rekomendasi-bathup.svg"
                     alt="Bathup"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -209,7 +209,7 @@ const RekomendasiRumah = () => {
 
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-globe.svg"
+                    src="/img/icons/rekomendasi-globe.svg"
                     alt="Globe"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -225,7 +225,7 @@ const RekomendasiRumah = () => {
           <div className="p-2 overflow-hidden rounded pb-14 max-w-rekomendasi-card max-h-rekomendasi-card bg-secondary">
             <div className="w-full mb-2 h-72 ">
               <img
-                src="/public/img/icons/rumah5.png"
+                src="/img/icons/rumah5.png"
                 alt="rumah 1"
                 className="object-cover w-full h-full"
               />
@@ -239,7 +239,7 @@ const RekomendasiRumah = () => {
               <div className="flex items-center justify-between py-4">
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-tempat-tidur.svg"
+                    src="/img/icons/rekomendasi-tempat-tidur.svg"
                     alt="Tempat Tidur"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -251,7 +251,7 @@ const RekomendasiRumah = () => {
 
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-bathup.svg"
+                    src="/img/icons/rekomendasi-bathup.svg"
                     alt="Bathup"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -263,7 +263,7 @@ const RekomendasiRumah = () => {
 
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-globe.svg"
+                    src="/img/icons/rekomendasi-globe.svg"
                     alt="Globe"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -279,7 +279,7 @@ const RekomendasiRumah = () => {
           <div className="p-2 overflow-hidden rounded pb-14 max-w-rekomendasi-card max-h-rekomendasi-card bg-secondary">
             <div className="w-full mb-2 h-72 ">
               <img
-                src="/public/img/icons/rumah6.png"
+                src="/img/icons/rumah6.png"
                 alt="rumah 1"
                 className="object-cover w-full h-full"
               />
@@ -293,7 +293,7 @@ const RekomendasiRumah = () => {
               <div className="flex items-center justify-between py-4">
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-tempat-tidur.svg"
+                    src="/img/icons/rekomendasi-tempat-tidur.svg"
                     alt="Tempat Tidur"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -305,7 +305,7 @@ const RekomendasiRumah = () => {
 
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-bathup.svg"
+                    src="/img/icons/rekomendasi-bathup.svg"
                     alt="Bathup"
                     className="inline-block w-6 h-6 mr-1"
                   />
@@ -317,7 +317,7 @@ const RekomendasiRumah = () => {
 
                 <button className="text-left">
                   <img
-                    src="/public/img/icons/rekomendasi-globe.svg"
+                    src="/img/icons/rekomendasi-globe.svg"
                     alt="Globe"
                     className="inline-block w-6 h-6 mr-1"
                   />

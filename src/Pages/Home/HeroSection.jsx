@@ -5,12 +5,12 @@ const HeroSection = () => {
           <div className="container">
             <div className="flex items-center justify-start w-full h-screen pt-10">
               <img
-                src="/public/img/layer/layer-hero.png"
+                src="/img/layer/layer-hero.png"
                 alt="layer"
                 className="absolute top-0 left-0 z-10 h-full max-w-1/2"
               />
               <img
-                src="/public/img/bg/hero-section.png"
+                src="/img/bg/hero-section.png"
                 alt="rumah impian"
                 className="absolute bottom-0 right-0 z-10 max-w-1/2 h-5/6"
               />

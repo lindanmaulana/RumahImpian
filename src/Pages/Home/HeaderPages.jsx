@@ -5,7 +5,7 @@ const HeaderPages = () => {
           <div className="container">
             <div className="flex items-center justify-between">
               <button className="flex gap-x-2">
-                <img src="/public/logo/rumahImpian.svg" alt="Rumah Impian" />{" "}
+                <img src="/logo/rumahImpian.svg" alt="Rumah Impian" />{" "}
                 <span className="text-xl text-secondary">Rumah Impian</span>
               </button>
 
