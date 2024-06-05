@@ -1,6 +1,6 @@
 const LayananPages = () => {
   return (
-    <section className="py-section bg-[#F3FFF4]">
+    <section className="py-section">
       <div className="container">
         <div className="text-center mb-11">
           <h3 className="mb-1 text-5xl font-semibold text-premier">

@@ -9,6 +9,13 @@ export default {
     },
 
     extend: {
+      maxWidth: {
+        'rekomendasi-card': '380px'
+      },
+      maxHeight: {
+        'rekomendasi-card': '490px'
+      },
+
       padding: {
         'section': '100px'
       },
@@ -21,7 +28,8 @@ export default {
         'secondary': '#FFFFFF',
         'premier-2' : '#00985B',
         'hijau-tua' : '#00492C',
-        'hitam' : '#000000'
+        'hitam' : '#000000',
+        'pink': "#FF0000"
       }
     },
   },
