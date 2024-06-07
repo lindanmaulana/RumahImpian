@@ -1,7 +1,9 @@
+import { forwardRef } from "react"
 
-const HeroSection = () => {
+const HeroSection = forwardRef((props, ref) => {
+  
   return (
-    <section className="bg-gradient-to-br from-premier from-10% to-black/90 to-100%">
+    <section className="bg-gradient-to-br from-premier from-10% to-black/90 to-100%" ref={ref}>
           <div className="container">
             <div className="flex items-center justify-start w-full h-screen pt-10">
               <img
@@ -33,6 +35,8 @@ const HeroSection = () => {
           </div>
         </section>
   )
-}
+})
+
+HeroSection.displayName = "HeroSection"
 
 export default HeroSection

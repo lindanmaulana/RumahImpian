@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .transition-global {
+    @apply transition-all duration-500 ease-in-out
+  }
+
+  .bg-banner {
+    @apply bg-gradient-to-br from-[#00985B] to-black/80
+  }
+}
+
 @layer base {
 
   body {

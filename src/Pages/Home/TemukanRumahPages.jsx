@@ -1,6 +1,19 @@
+import { useState } from "react";
+
 const TemukanRumahPages = () => {
+  const [page, setPage] = useState("jual");
+
+  const sewa = "sewa";
+  const jual = "jual";
+  const propertyBaru = "property baru";
+
+  const handleCLick = (params) => {
+    setPage(params);
+  };
   return (
-    <section className="bg-[url(/img/bg/green-interior.png)] bg-center bg-cover ">
+    <section
+      className="bg-[url(/img/bg/green-interior.png)] bg-center bg-cover"
+    >
       <div className="container py-section pb-[200px]">
         <div className="flex flex-col justify-center max-w-4xl mx-auto">
           <div className="flex flex-col items-center justify-center mb-16 text-center gap-y-3">
@@ -13,11 +26,28 @@ const TemukanRumahPages = () => {
             </p>
           </div>
           <div>
-            <button className="px-4 py-2 text-lg rounded-tl-lg bg-white/80 text-premier-2">
+            <button
+              onClick={() => handleCLick(jual)}
+              className={`px-4 py-2 text-lg rounded-tl-lg ${
+                page === jual ? "bg-white/80" : "bg-white/50"
+              } text-premier-2`}
+            >
               Jual
             </button>
-            <button className="px-4 py-2 text-lg bg-white/50">Sewa</button>
-            <button className="px-4 py-2 text-lg rounded-tr-lg bg-white/50">
+            <button
+              onClick={() => handleCLick(sewa)}
+              className={`px-4 py-2 text-lg ${
+                page === sewa ? "bg-white/80" : "bg-white/50"
+              } text-premier-2`}
+            >
+              Sewa
+            </button>
+            <button
+              onClick={() => handleCLick(propertyBaru)}
+              className={`px-4 py-2 text-lg rounded-tr-lg ${
+                page === propertyBaru ? "bg-white/80" : "bg-white/50"
+              } text-premier-2`}
+            >
               Property Baru
             </button>
           </div>
@@ -53,5 +83,4 @@ const TemukanRumahPages = () => {
     </section>
   );
 };
-
 export default TemukanRumahPages;

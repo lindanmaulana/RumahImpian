@@ -1,12 +1,14 @@
-import './App.css'
 
-function App() {
+import HeaderPages from "./Pages/Home/HeaderPages";
 
+
+const App = () => {
   return (
-    <>
-      <h1 className='font-poppins text-premier'>Hello world</h1>
-    </>
-  )
-}
+    <div className="App">
+      <HeaderPages />
+      
+    </div>
+  );
+};
 
-export default App
+export default App;
