@@ -46,7 +46,7 @@ const FiturPaginationSistem = (props) => {
     const element = [];
     for (let i = 1; i <= totalPages; i++) {
       element.push(
-        <button
+        <button key={i}
           onClick={() => onChangePage(i)}
           className={`w-60 h-72 ${
             i === current ? "opacity-100" : "opacity-50"
@@ -102,13 +102,13 @@ const FiturPaginationSistem = (props) => {
         <div className="flex gap-x-4">
           <button
             onClick={() => onChangePage(current - 1)}
-            className="px-4 py-1 text-3xl rounded-full text-secondary bg-premier"
+            className="px-4 py-1 text-3xl rounded-full text-secondary bg-premier hover:scale-105 transition-global"
           >
             ❮
           </button>
           <button
             onClick={() => onChangePage(current + 1)}
-            className="px-4 py-1 text-3xl rounded-full text-secondary bg-premier"
+            className="px-4 py-1 text-3xl rounded-full text-secondary bg-premier hover:scale-105 transition-global"
           >
             ❯
           </button>

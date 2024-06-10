@@ -1,66 +1,50 @@
-import { useEffect } from "react";
-import { useState } from "react";
+import HeaderNavigasi from "../../Components/Fragments/Home/HeaderNavigasi";
+import HeaderSignUp from "../../Components/Fragments/Home/HeaderSignUp";
+import HeaderHamburger from "../../Components/Fragments/Home/HeaderHamburger";
+import { useSelector } from "react-redux";
 
 const HeaderPages = (props) => {
-  const {bannerRef, layananRef, fiturRef, kontakRef} = props
-  const [isRadius, setIsRadius] = useState(0)
-  
-  const handleRadius = () => {
-    const Y = pageYOffset;
+  const { bannerRef, layananRef, fiturRef, kontakRef } = props;
+  const selector = useSelector((state) => state.cart);
 
-    setIsRadius(Y)  
-  }
-  
-  useEffect(() => {
-    window.addEventListener('scroll', handleRadius)
-
-    return () => {
-      window.removeEventListener('scroll', handleRadius)
-    }
-  }, [isRadius])
-
-  const handleScrollSection = (ref) => {
-    if(ref.current) {
-      ref.current.scrollIntoView({behavior: 'smooth'})
-    }
-  }
-  
   return (
     <nav className="absolute top-0 w-full py-8">
       <div className="container">
         <div className="flex items-center justify-between">
           <button className="flex gap-x-2">
             <img src="/logo/rumahImpian.svg" alt="Rumah Impian" />{" "}
-            <span className="text-xl text-secondary">Rumah Impian</span>
+            <span className="text-sm md:text-xl text-secondary">
+              Rumah Impian
+            </span>
           </button>
 
-          <ul>
-            <li className="flex text-secondary gap-x-6">
-              <button onClick={() => handleScrollSection(bannerRef)} className="text-base">
-                BERANDA
-              </button>
-              <button onClick={() => handleScrollSection(layananRef)} className="text-base">
-                LAYANAN
-              </button>
-              <button onClick={() => handleScrollSection(fiturRef)} className="text-base">
-                FITUR
-              </button>
-              <button onClick={() => handleScrollSection(kontakRef)} className="text-base">
-                KONTAK
-              </button>
-            </li>
-          </ul>
+          <HeaderNavigasi
+            flexDirection="flex-row"
+            bannerRef={bannerRef}
+            layananRef={layananRef}
+            fiturRef={fiturRef}
+            kontakRef={kontakRef}
+          />
 
-          <div className="flex">
-            <button className="px-6 py-1 text-base text-secondary">
-              DAFTAR
-            </button>
-            <button className="px-6 py-1 text-base bg-secondary text-premier">
-              MASUK
-            </button>
-          </div>
+          {/* <HeaderHamburger /> */}
 
-          <button onClick={() => handleScrollSection(bannerRef)} className={` ${isRadius > 100 ? 'block' : 'hidden'} fixed z-50 px-5 py-3 rounded-md bottom-10 right-10 bg-banner text-secondary`}>▲</button>
+          {/* <div
+            className={`absolute top-20 right-5 ${
+              selector.stateSection.heroSection
+                ? "bg-slate-800 opacity-100 translate-x-0 text-red-500"
+                : " text-blue-700 translate-x-full opacity-0"
+            }`}
+          >
+            <div className="flex flex-col">
+              <button>Beranda</button>
+              <button>Layanan</button>
+              <button>Fitur</button>
+              <button>Kontak</button>
+              <HeaderSignUp />
+            </div>
+          </div> */}
+
+          <HeaderSignUp />
         </div>
       </div>
     </nav>

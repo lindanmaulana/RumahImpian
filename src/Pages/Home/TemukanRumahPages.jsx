@@ -15,7 +15,7 @@ const TemukanRumahPages = () => {
       className="bg-[url(/img/bg/green-interior.png)] bg-center bg-cover"
     >
       <div className="container py-section pb-[200px]">
-        <div className="flex flex-col justify-center max-w-4xl mx-auto">
+        <div className="flex flex-col justify-center max-w-5xl mx-auto">
           <div className="flex flex-col items-center justify-center mb-16 text-center gap-y-3">
             <h2 className="text-5xl font-semibold text-secondary">
               Temukan Rumah Impianmu
@@ -54,7 +54,7 @@ const TemukanRumahPages = () => {
           <div className="flex rounded-bl-lg">
             <button className="flex items-center justify-center px-6 py-6 bg-white/70">
               <img
-                className="w-5 h-5 "
+                className="w-5 h-5 mr-2"
                 src="/img/icons/temukan-rumah.svg"
                 alt="rumah"
               />
@@ -63,7 +63,7 @@ const TemukanRumahPages = () => {
 
             <button className="flex items-center justify-center px-6 py-6 bg-white/70">
               <img
-                className="w-5 h-5 "
+                className="w-5 h-5 mr-2"
                 src="/img/icons/temukan-uang.svg"
                 alt="rumah"
               />

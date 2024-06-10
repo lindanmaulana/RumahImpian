@@ -1,6 +1,13 @@
 import { forwardRef } from "react"
 
 const HeroSection = forwardRef((props, ref) => {
+  const {rekomendasiRef} = props
+
+  const handleScrollSection = (params) => {
+    if(params.current) {
+      params.current.scrollIntoView({behavior: 'smooth'})
+    }
+  }
   
   return (
     <section className="bg-gradient-to-br from-premier from-10% to-black/90 to-100%" ref={ref}>
@@ -25,10 +32,10 @@ const HeroSection = forwardRef((props, ref) => {
                   di jual ataupun di sewa dengan sumber terpercaya.
                 </p>
                 <div className="flex items-center justify-start gap-x-3.5">
-                  <button className="px-8 py-4 text-base font-bold text-premier bg-secondary">
+                  <button onClick={() => handleScrollSection(rekomendasiRef)} className="px-8 py-4 text-base font-bold rounded-sm peer hover:scale-105 transition-global text-premier bg-secondary">
                     Temukan Rumah
                   </button>
-                  <span className="text-3xl text-secondary">❯</span>
+                  <span className="text-3xl text-secondary peer-hover:translate-x-5 transition-global">❯</span>
                 </div>
               </div>
             </div>
